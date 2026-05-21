@@ -1,0 +1,70 @@
+.kontrol-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .kontrol-image {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+  }
+  
+  .kontrol-image img {
+    width: 400px;
+    height: auto;
+    max-height: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .kontrol-menu {
+    flex: 1;
+    background-color: #2c3e50;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 300px; /* Menü genişliğini artırdık */
+    width: 350px; /* Menü genişliğini sabitledik */
+  }
+  
+  .kontrol-menu h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .kontrol-menu ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .kontrol-menu li {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  .kontrol-menu button {
+    width: 100%;
+    background-color: #34495e;
+    color: white;
+    padding: 1rem 1.2rem; /* Paddingi biraz artırdık */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    text-align: left;
+    font-size: 1.2rem; /* Yazı boyutunu artırdık */
+  }
+  
+  .kontrol-menu h3 {
+    font-size: 1.8rem; /* Başlık boyutunu artırdık */
+    margin-bottom: 2rem;
+  }
+  .kontrol-menu button:hover {
+    background-color: #1abc9c;
+  }
+  

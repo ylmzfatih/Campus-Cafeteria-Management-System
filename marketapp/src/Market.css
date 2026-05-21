@@ -1,0 +1,23 @@
+.market-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.urun-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.urun-karti {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  width: 220px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.urun-karti p {
+  margin: 5px 0;
+}

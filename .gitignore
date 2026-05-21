@@ -1,0 +1,26 @@
+node_modules/
+    node_modules/
+    build/
+    build/
+    dist/
+    dist/
+    .env
+    .env
+    .vs/
+    .vs/
+    bin/
+    bin/
+    obj/
+    obj/
+    Debug/
+    Debug/
+    Release/
+    Release/
+    *.exe
+    *.exe
+    *.dll
+    *.dll
+    *.pdb
+    *.pdb
+    *.user
+    *.user
